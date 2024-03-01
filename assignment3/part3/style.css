@@ -45,3 +45,30 @@ header, footer {
 }
 
 /* WRITE YOUR CODE BELOW HERE */
+h1{
+  font-size: 2rem;
+  text-align: center;
+  letter-spacing: 3px;
+}
+h2{
+  font-size: 2em;
+  letter-spacing: 1;
+}
+p,li{
+  line-height: 1.5;
+  letter-spacing: 0.5;
+  word-spacing: 0.9;
+  font-size: 1rem;
+
+}
+p{
+  text-indent: 20px;
+}
+a:active:{
+  color: red;
+}
+a:hover, a:focus{
+  color: red;
+  text-decoration: none;
+  outline: none;
+}
