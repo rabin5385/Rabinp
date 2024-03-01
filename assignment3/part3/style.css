@@ -72,3 +72,17 @@ a:hover, a:focus{
   text-decoration: none;
   outline: none;
 }
+a:link{
+  color: green; 
+}
+a[href^="https"]{
+  background: url("external-link-52.png") no-repeat 100% 0;
+  background-size: 20px 20px;
+  padding-right:19px ;
+}
+ul ol{
+  margin: 1.5rem 0;
+}
+ol{
+  list-style-type: ;
+}
