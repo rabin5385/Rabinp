@@ -60,4 +60,12 @@ body {
 
   .feature {
       width: 200px;
+      float: left;
+      margin: 20px;
+  }
+  aside{
+    flex: 1;
+  }
+  article{
+    flex: 3;
   }
