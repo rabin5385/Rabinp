@@ -84,5 +84,35 @@ ul ol{
   margin: 1.5rem 0;
 }
 ol{
-  list-style-type: ;
+  list-style-type: square;
+}
+ol{
+  list-style-type: lower-latin;
+}
+nav ul{
+  padding-left: 0;
+  margin-top: 1;
+}
+nav li a{
+  list-style-type: none;
+  margin-bottom: 2rem;
+}
+nav li a{
+  text-decoration: none;
+  display: inline-block;
+  width: 90%;
+  line-height: 3;
+  text-align: center;
+  font-size: 2rem;
+  border: 1px solid blue;
+}
+
+nav li a:focus, nav li a:hover {
+  color:red;
+  background: gray;
+}
+
+nav li :active{
+  color: red;
+  background: silver;
 }
