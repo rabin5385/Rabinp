@@ -15,12 +15,11 @@ div{
   text-shadow:  1px 1px 1px ;
   border-radius:  10px; ;
   border: 1px solid black ;
-  background: linear-gradient(to bottom right , rgba(0,0,0,0) 0%, rgba(10,100,23,0.2)30%,rgba(0,0,0,0.2)100%);
+  background: linear-gradient(right bottom , rgba(0,0,0,0) 0%, rgba(10,100,23,0.2)30%,rgba(0,0,0,0.2)100%);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5), /* Standard box shadow to make the box slightly raised off the page */
-    inset 5px 5px 10px rgba(255, 255, 255, 0.5), /* Inset box shadow near the top left for a raised 3D look */
-    inset -5px -5px 10px rgba(0, 0, 0, 0.5); /* Inset box shadow near the bottom right for a raised 3D look */
+  inset 5px 5px 10px rgba(255, 255, 255, 0.5), /* Inset box shadow near the top left for a raised 3D look */
+  inset -5px -5px 10px rgba(0, 0, 0, 0.5); /* Inset box shadow near the bottom right for a raised 3D look */
   justify-content: center;
   align-items: center;
   display: flex;
-  
 }
