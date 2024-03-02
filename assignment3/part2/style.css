@@ -5,8 +5,8 @@ html {
 /* Your CSS below here */
 
 div{
-  width: 200px;
-  height: 100px;
+  width: 500px;
+  height: 250px;
   margin: 0 auto;
   text-align: center;
   font-size: 1.125rem; /* Slight increase in font size, aoproximately 18 px . supposing font size was 16px (1.125 * 16px = 18 px)*/
